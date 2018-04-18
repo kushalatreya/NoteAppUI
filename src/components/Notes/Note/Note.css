@@ -1,0 +1,13 @@
+.note-app{
+	height: 300px;
+	width: 250px;
+	display: inline-block;
+	text-align: center;
+	color: #f7f271;
+	margin: 3%;
+	padding: 1%;
+	background-color: #f7f271;
+}
+.sub-header{
+	font-size: 18px;
+}

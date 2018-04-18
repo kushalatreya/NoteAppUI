@@ -1,12 +1,15 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import Notes from "../components/Notes/Notes"
 import './App.css';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1>hello world!</h1>
+      	<MuiThemeProvider>
+        	<Notes />
+        </MuiThemeProvider>
       </div>
     );
   }
